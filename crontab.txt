@@ -1,0 +1,2 @@
+# Renew Let's Encrypt Certificate every 10 days
+0 0 */10 * * bash /root/letsencrypt-cloudflare-automated/renew-cert.sh
