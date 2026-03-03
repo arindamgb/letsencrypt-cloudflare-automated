@@ -145,22 +145,10 @@ Paste and save.
 
 ---
 
-## 🐳 Docker Requirement
-
-Verify Docker installation:
-
-```bash
-docker --version
-```
-
-Install Docker if it is not already installed.
-
----
-
 ## ✅ Renewal Behavior
 
 - Runs automatically via cron every 10 days.
-- Renews certificates only when less that 30 days left to expire.
+- Renews certificates only when less than 30 days left to expire.
 - No service interruption during renewal
 - Fully automated lifecycle management
 
@@ -208,8 +196,8 @@ If this project helped you, please consider giving it a ⭐ on GitHub.
 
 **Arindam Gustavo Biswas**
 
-- 🌐 Portfolio: https://arindamgb.com
-- 💼 LinkedIn: https://www.linkedin.com/in/arindamgb/  
-- 🐙 GitHub: https://github.com/arindamgb  
+- 🌐 [Website](https://arindamgb.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/arindamgb)
+- 🐙 [GitHub](https://github.com/arindamgb)  
 
 For questions, suggestions, or collaboration opportunities, feel free to connect or open an issue in this repository.
