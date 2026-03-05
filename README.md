@@ -73,11 +73,10 @@ Update your email and domain as below in the command:
 
 ### 2. Configure Cloudflare Authentication
 
-Edit the following files:
+Edit the following file:
 
 ```bash
 authenticator.sh
-cleanup.sh
 ```
 
 Insert your Cloudflare credentials:
@@ -85,6 +84,20 @@ Insert your Cloudflare credentials:
 ```bash
 API_TOKEN="your-cloudflare-api-key"
 ZONE_ID="your-cloudflare-zone-id"
+```
+
+Edit the following file:
+
+```bash
+cleanup.sh
+```
+
+Insert your Cloudflare credentials and DNS Record:
+
+```bash
+API_TOKEN="your-cloudflare-api-key"
+ZONE_ID="your-cloudflare-zone-id"
+RECORD_NAME="_acme-challenge.yourdomain.com"
 ```
 
 ---
