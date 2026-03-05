@@ -12,6 +12,7 @@ It simplifies TLS certificate management by automatically verifying domain owner
 - Cloudflare DNS-01 challenge support
 - Docker-based execution
 - Automatic certificate renewal
+- Renewal execution logging
 - Production-ready setup
 - Simple configuration
 
@@ -151,6 +152,21 @@ Paste and save.
 - Renews certificates only when less than 30 days left to expire.
 - No service interruption during renewal
 - Fully automated lifecycle management
+- Renewal activity is logged for monitoring and troubleshooting
+
+### 📄 Renewal Logs
+
+The cron renewal process writes logs to:
+
+```
+log-renew.log
+```
+
+You can monitor renewal activity using:
+
+```bash
+tail -f log-renew.log
+```
 
 ---
 
